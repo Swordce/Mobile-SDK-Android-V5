@@ -156,7 +156,7 @@ class LiveStreamVM : DJIViewModel() {
     }
 
     fun getRtmpUrl(): String {
-        return DjiSharedPreferencesManager.getString(ContextUtil.getContext(), RTMP_KEY, "")
+        return DjiSharedPreferencesManager.getString(ContextUtil.getContext(), RTMP_KEY, "rtmp://222.187.232.177:10085/hls/1?sign=Rx7JIu7ng")
     }
 
     fun setRTSPConfig(userName: String, password: String, port: Int) {
